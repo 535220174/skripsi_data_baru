@@ -1,0 +1,9 @@
+{
+    "jumlah_data_evaluasi": 198,
+    "rata_rata_bias_prediksi": 264064.11963383836,
+    "rata_rata_bias_absolut": 264517.53125,
+    "jumlah_overpredict": 197,
+    "jumlah_underpredict": 1,
+    "jumlah_prediksi_tepat": 0,
+    "kecenderungan_model": "Overpredict"
+}

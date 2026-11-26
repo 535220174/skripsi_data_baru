@@ -1,0 +1,11 @@
+{
+    "jumlah_file_wajib": 22,
+    "jumlah_file_tersedia": 22,
+    "jumlah_file_tidak_tersedia": 0,
+    "file_tidak_tersedia": [],
+    "jumlah_fitur_model": 9,
+    "jumlah_fitur_data": 9,
+    "verifikasi_model": "Berhasil",
+    "verifikasi_prediksi": "Berhasil",
+    "status_pemeriksaan": "Lengkap"
+}

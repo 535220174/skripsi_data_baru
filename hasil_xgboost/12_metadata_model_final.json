@@ -1,0 +1,35 @@
+{
+    "nama_model": "XGBoost Regression",
+    "nama_file_model": "12_model_xgboost_final.joblib",
+    "jenis_prediksi": "Recursive time-series prediction",
+    "jumlah_fitur": 9,
+    "daftar_fitur": [
+        "hari_dalam_minggu_sin",
+        "hari_dalam_minggu_cos",
+        "hari_tahun_sin",
+        "hari_tahun_cos",
+        "akhir_pekan",
+        "lag_1",
+        "lag_7",
+        "rolling_mean_7",
+        "rolling_mean_14"
+    ],
+    "parameter_model": {
+        "n_estimators": 100,
+        "max_depth": 3,
+        "learning_rate": 0.03,
+        "subsample": 0.8,
+        "objective": "reg:squarederror"
+    },
+    "hasil_evaluasi_recursive": {
+        "RMSE": 283568.5699423724,
+        "MAE": 264517.53125,
+        "MSE": 80411133859.16216,
+        "R2": -2.2481947997546103
+    },
+    "periode_pengujian": {
+        "tanggal_awal": "2026-03-17",
+        "tanggal_akhir": "2026-09-30",
+        "jumlah_data_uji": 198
+    }
+}

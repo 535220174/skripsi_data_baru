@@ -1,0 +1,22 @@
+{
+    "RMSE": 127910.80892559471,
+    "MAE": 98493.4375,
+    "MSE": 16361175040.0,
+    "R2": 0.3390929102897644,
+    "jenis_evaluasi": "One-step-ahead",
+    "metode_tuning": "GridSearchCV",
+    "metode_prediksi": "Prediksi berantai",
+    "metode_validasi": "TimeSeriesSplit",
+    "jumlah_fold": 3,
+    "jumlah_kombinasi_parameter": 16,
+    "RMSE_validasi_terbaik": 174589.07291666666,
+    "parameter_terbaik": {
+        "colsample_bytree": 0.8,
+        "learning_rate": 0.03,
+        "max_depth": 3,
+        "min_child_weight": 3,
+        "n_estimators": 100,
+        "subsample": 0.8
+    },
+    "sumber_fitur_historis": "Nilai aktual pada awal periode uji dan hasil prediksi pada periode berikutnya"
+}
